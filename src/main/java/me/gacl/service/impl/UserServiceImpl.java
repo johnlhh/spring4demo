@@ -17,6 +17,7 @@ public class UserServiceImpl implements UserServiceI {
     /**
      * 使用@Autowired注解标注userMapper变量，
      * 当需要使用UserMapper时，Spring就会自动注入UserMapper
+     * 你好test
      */
     @Autowired
     private UserMapper userMapper;//注入dao

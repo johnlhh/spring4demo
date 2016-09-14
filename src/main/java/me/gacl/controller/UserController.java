@@ -1,5 +1,7 @@
 package me.gacl.controller;
 
+import me.gacl.service.UserServiceI;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -7,4 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class UserController {
+
+    @Autowired
+    private UserServiceI userServiceI;
 }
